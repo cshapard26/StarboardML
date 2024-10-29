@@ -1,7 +1,7 @@
 import pandas
 import numpy
 import matplotlib
-import src.crossover, src.fitness_function
+import src
 
 def main():
     pass
