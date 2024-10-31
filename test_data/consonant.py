@@ -47,4 +47,4 @@ def cluster_consonants(text, section = 0) -> list: # Text is the name of the fil
 
 if __name__ == "__main__":
     testing_data = "test_data/alice_in_wonderland.txt"
-    print(cluster_consonants(testing_data, -1)) 
+    print(cluster_consonants(testing_data, -1))
