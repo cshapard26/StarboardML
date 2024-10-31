@@ -18,7 +18,7 @@ def detach_back(word):
     return ""
 
 def cluster_consonants(text, section = 0) -> list: # Text is the name of the file and Section is the sliver of the word to grab (0 = "gr"asping, -1 = graspi"ng")
-   try:
+    try:
         with open(text, 'r') as data:
             cluster_count = dict()
             aplhatext = re.sub(r'[^a-zA-Z\s]', '', data.read().lower())
