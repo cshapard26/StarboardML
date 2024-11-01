@@ -38,3 +38,16 @@ The matrix will be created using nested lists where each sublist is a column. So
  [T, H, M]]
 ```
 in python.
+
+The dataset is based on the following n-grams for beginning clusters:
+
+- 1-grams: B, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, Y, Z
+- 2-grams: BL, BR, DR, FL, FR, GL, GR, KH, KL/CL, KR, PL, PR, SH, SK, SF, SL, SM, SN, SP, SQ, ST, SW, TH, TR, TW
+- 3-grams: SHR, STR, SPL, SKR, SPR, SKH, THR
+
+With the special, weighted cases:
+- KW = Q
+- C = K
+- WH = W
+- WR = R
+- PH = F
