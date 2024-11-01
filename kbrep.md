@@ -47,7 +47,14 @@ The dataset is based on the following n-grams for beginning clusters:
 
 With the special, weighted cases:
 - KW = Q
-- C = K
+- C  = K
 - WH = W
 - WR = R
 - PH = F
+
+Key combo possibilities (r = rows, c = columns): $(2r)^{c} - 1$
+
+Rules:
+Cannot make multiple keys with blank keys
+Blank keys on edges do not count as empty
+
