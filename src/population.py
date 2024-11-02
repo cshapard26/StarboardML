@@ -70,7 +70,7 @@ def initialize_population(size, seed=None):
             combo_key_dict[random_combo].append(key)
 
         # Add layout to current population
-        raw_population.append(KB(id, 1, keyboard_matrix, combo_key_dict))
+        raw_population.append(KB(id, 1, keyboard_matrix, combo_key_dict, columns, rows))
 
 
 def update_population(size, parents, offspring):

@@ -1,2 +1,14 @@
+import math
+
 def evaluate_population(population):
-    pass #evaluate each member according to the fitness function
+    for member in population:
+        columns = 
+        
+        
+        
+        
+        member.score = (
+            4 * math.exp()
+
+
+        )
