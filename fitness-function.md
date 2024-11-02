@@ -15,6 +15,6 @@ Each keyboard layout will be socred on the following criterion:
 
 Where the function is defined as:
 
-$Score = (15(1.05-e^{\frac{-(t-2)^2}{100}})\times\frac{2O\times(M + 30S)}{H}  + \frac{100D}{G^2} + P)^C$
+$Score = ((4e^{-x} + 1)\times\frac{2O\times(M + 30S)}{H}  + \frac{100D}{G^2} + P)^C$
 
 and a lower score is a better fit.
