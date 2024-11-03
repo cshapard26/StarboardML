@@ -1,8 +1,5 @@
-from classes.kb import *
 import random
 import itertools
-
-
 
 key_dataset = ["B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y", "Z",
                "BL", "BR", "DR", "FL", "FR", "GL", "GR", "KH", "KL/CL", "KR", "PL", "PR", "SH", "SK", "SF", "SL", "SM", "SN", "SP", "SQ", "ST", "SW", "TH", "TR", "TW",
@@ -71,6 +68,8 @@ def initialize_population(size, seed=None):
 
         # Add layout to current population
         raw_population.append(KB(id, 1, keyboard_matrix, combo_key_dict, columns, rows))
+    
+    return raw_population
 
 
 def update_population(size, parents, offspring):
@@ -78,4 +77,7 @@ def update_population(size, parents, offspring):
 
 
 if __name__ == "__main__":
+    from classes.kb import *
     initialize_population(100)
+else:
+    from src.classes.kb import *

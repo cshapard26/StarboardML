@@ -11,10 +11,10 @@ Each keyboard layout will be socred on the following criterion:
 | Finger Movement   | M        | P        | Direct Keyword Test     | High       |
 | Mistrokeibility   | P        | P        | Distance of freq letters| Low        |
 | Homerow Usage     | H        | IP       | Count N-grams in homerow| Medium     |
-| Unused Chords     | U        | P/IP     | Parabola: 2 unused best | Medium     |
+| Unused Chords     | U        | P/IP     | Approaches 0 quickly    | Medium     |
 
 Where the function is defined as:
 
-$Score = ((4e^{-x} + 1)\times\frac{2O\times(M + 30S)}{H}  + \frac{100D}{G^2} + P)^C$
+$Score = ((4e^{-U} + 1)\times\frac{2O\times(M + 30S)}{H}  + \frac{100D}{G^2} + P)^C$
 
 and a lower score is a better fit.
