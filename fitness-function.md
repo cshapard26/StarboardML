@@ -15,7 +15,7 @@ Each keyboard layout will be socred on the following criterion:
 
 Where the function is defined as:
 
-$Score = ((4e^{-U} + 1)\times\frac{2O\times(M + 30S) + 100D}{H\times G^2} + P)^C$
+$Score = ((4e^{-U} + 1)\times\frac{2O\times(M + 30S) + 100D}{H\times G^2 + 1} + P)^C$
 
 and a lower score is a better fit.
 

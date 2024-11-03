@@ -19,8 +19,14 @@ def evaluate_population(population):
                 else:
                     seen_keys.add(chord)
         
-        
-        
+        n_gram_consistency = 0
+        for combo, chords in member.key_dict.items():
+            for chord in chords:
+                for key in combo:
+                    if chord in key:
+                        n_gram_consistency += 1
+                        break
+        print(n_gram_consistency)
         
         
         
