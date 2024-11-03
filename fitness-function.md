@@ -18,3 +18,5 @@ Where the function is defined as:
 $Score = ((4e^{-U} + 1)\times\frac{2O\times(M + 30S)}{H}  + \frac{100D}{G^2} + P)^C$
 
 and a lower score is a better fit.
+
+The fitness function is a rough draft and will change as testing progresses.
