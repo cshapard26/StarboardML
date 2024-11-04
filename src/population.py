@@ -48,6 +48,7 @@ def initialize_population(size, seed=None):
             
             if col_set_list == []:
                 columns -= 1
+                keyboard_matrix.remove(col)
             else:
                 col_sets.append(col_set_list)
         
