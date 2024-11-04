@@ -59,8 +59,8 @@ def evaluate_population(population):
             ) + mistrokeability ) **
             columns
         )
-
-        print(member.score)
+    
+    return population
 
 
 if __name__ == "__main__":
