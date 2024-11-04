@@ -55,6 +55,7 @@ def initialize_population(size, seed=None):
             continue
         
         # col_sets now contains a list of lists of the sets of items in each column, with pairs
+        # TODO: Fix Frozenset issue
         key_combo_list = [set.union(*tup) for tup in list(itertools.product(*col_sets))]
 
         # Pair unused keyboard keys to random combos in the list

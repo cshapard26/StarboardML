@@ -7,9 +7,17 @@ class KB:
         self.columns = columns
         self.rows = rows
 
-
-
         self.score = 0
 
+class NGramData:
+    def __init__(self):
+        self.ngram_rankings = dict() 
+        #{S: 10
+        # T: 10
+        # P: 9
+        # ...    
+        # SCH = 0
+        #}
+        
         
     
